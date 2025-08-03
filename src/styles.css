@@ -1,0 +1,135 @@
+/* Estilos base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Modo claro/oscuro */
+.light {
+  background-color: #f0f0f0;
+  color: #222;
+}
+
+.dark {
+  background-color: #222;
+  color: #f0f0f0;
+}
+
+/* Header responsive */
+.header {
+  background-color: #005b94;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+/* Navegación */
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.nav li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav li a:hover {
+  text-decoration: underline;
+}
+
+/* Botón modo claro/oscuro */
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.toggle-container button {
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #005b94;
+  color: white;
+}
+
+.dark .toggle-container button {
+  background-color: #ffa500;
+  color: black;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: 0.9em;
+  padding: 20px 0;
+  background-color: #222;
+  color: #eee;
+  margin-top: 40px;
+  border-top: 1px solid #444;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* 📱 Media queries para móviles */
+@media (max-width: 600px) {
+  .logo-container {
+    flex-direction: column;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .toggle-container {
+    padding: 0 10px;
+  }
+
+  .toggle-container button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
+/* Sticky Footer Layout */
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}

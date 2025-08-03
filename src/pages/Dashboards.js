@@ -11,7 +11,8 @@ const Dashboards = () => (
       <li>Qué es un dashboard (panel de control visual).</li>
       <li>Elementos que debe contener un buen dashboard.</li>
       <li>Consejos para construir visualizaciones interactivas y claras.</li>
-      <li>Ejemplo de dashboard <a>https://dashboard-ecomerce.onrender.com/</a></li>
+      <li>Ejemplo de dashboard </li>
+      <a>https://dashboard-ecomerce.onrender.com/</a>
     </ol>
 
     {/* Imagen representativa del dashboard */}

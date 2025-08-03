@@ -10,6 +10,16 @@ const Graficas = () => (
       <li>Tipos de gráficas: de barras, líneas, pastel, tablas, mapas y dashboards.</li>
       <li>Cómo elegir el tipo de visualización adecuada según el objetivo del análisis.</li>  
     </ol>
+
+        {/* Imagen representativa del dashboard */}
+    <div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <img
+        src="/images/graficos.png"
+        alt="Ejemplo de dashboard"
+        style={{ maxWidth: '100%', height: 'auto', border: '1px solid #ccc', borderRadius: '8px' }}
+      />
+    </div>
+
     <Link to="/">← Volver al índice</Link>
   </div>
 );

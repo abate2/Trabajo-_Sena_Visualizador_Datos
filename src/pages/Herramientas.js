@@ -10,6 +10,14 @@ const Herramientas = () => (
       <li>TIntroducción a software de visualización como Tableau o Power BI (mencionado de forma general).</li>
       <li>Recolección, limpieza y organización de datos antes de graficar.</li>  
     </ol>
+        {/* Imagen representativa del dashboard */}
+    <div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <img
+        src="/images/powerBiEjemplo.PNG"
+        alt="Ejemplo de dashboard"
+        style={{ maxWidth: '100%', height: 'auto', border: '1px solid #ccc', borderRadius: '8px' }}
+      />
+    </div>
     <Link to="/">← Volver al índice</Link>
   </div>
 );

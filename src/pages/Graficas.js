@@ -15,7 +15,7 @@ const Graficas = () => (
     <div style={{ textAlign: 'center', marginTop: '20px' }}>
       <img
         src="/images/graficos.png"
-        alt="Ejemplo de dashboard"
+        alt="Ejemplo de Graficos"
         style={{ maxWidth: '100%', height: 'auto', border: '1px solid #ccc', borderRadius: '8px' }}
       />
     </div>
